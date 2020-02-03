@@ -17,5 +17,5 @@ Let's move on with some small rules...
 * Fork this repository and submit your code.
 
 ## App Info
-* Login: teste@teste.com.br
+* Login: teste@teste.com
 * Password: 123456
