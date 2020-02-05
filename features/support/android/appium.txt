@@ -1,0 +1,9 @@
+[caps]
+   platformName = "ANDROID"
+   app = "../ifood-automation-test/features/apps/android/ifood-test.apk"
+   # Use automationName with UiAutomator2, because default automator,
+   # not recognize any elements on the screen
+   deviceName = "0035985737"
+   ##automationName = "UiAutomator2"
+   #unicodeKeyboard	 = "true"
+   newCommandTimeout = "3600"

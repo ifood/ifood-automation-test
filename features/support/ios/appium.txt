@@ -1,0 +1,8 @@
+[caps]
+    platformName = "iOS"
+    platformVersion = "13.3"
+    deviceName = "iPhone 11"
+    app =  "../ifood-automation-test/features/apps/ios/ifood-test.app"
+    allowTouchIdEnroll = true
+    autoDismissAlerts = true
+    automationName = "XCUITest"
