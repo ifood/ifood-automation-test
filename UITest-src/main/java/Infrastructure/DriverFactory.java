@@ -44,7 +44,13 @@ public class DriverFactory {
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("deviceName", "emulator-5554");
         desiredCapabilities.setCapability("automationName", "uiautomator2");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/wcaquino/Documents/dev/java/workspaceCurso/CursoAppium/src/main/resources/CTAppium_1_0.apk");
+        desiredCapabilities.setCapability("appiumVersion", "1.16.0");
+
+
+        desiredCapabilities.setCapability("appPackage", "com.ifood.testqa");
+        desiredCapabilities.setCapability("appActivity", "host.exp.exponent.MainActivity");
+
+        //desiredCapabilities.setCapability(MobileCapabilityType.APP, "C:/iFood/ifood-automation-test/ifood-test.apk");
         return desiredCapabilities;
     }
 

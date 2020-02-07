@@ -30,17 +30,27 @@ public class LogInPage extends BasePage {
     // Element Iterators
     //================================================================================
 
-    protected void InsertEmail(String email) {
+    private void InsertEmail(String email) {
         EmailInput().sendKeys((email));
     }
 
-    protected void InsertSenha(String senha) {
+    private void InsertSenha(String senha) {
         SenhaInput().sendKeys((senha));
     }
 
-    protected void ClickEntrar() {
+    private void ClickEntrar() {
         EntrarButton().click();
     }
 
     //================================================================================
+
+    // Page Behaviors
+    //================================================================================
+
+    public void Login(String email, String senha) throws InterruptedException {
+        Thread.sleep(10000);
+        InsertEmail(email);
+        InsertSenha(senha);
+        ClickEntrar();
+    }
 }
