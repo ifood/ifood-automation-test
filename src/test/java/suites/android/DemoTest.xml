@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo Android" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="listeners.Injector" />
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+    <test name="Efetuar Alguns testes ao app Ifood">
+        <parameter name="platform" value="androidSimulator"/>
+        <parameter name="app" value="host.exp.exponent.MainActivity"/>
+        <parameter name="device" value="0048249728"/>
+        <parameter name="udid" value="com.ifood.testqa"/>
+        <parameter name="url" value="http://localhost:4723/wd/hub"/>
+        <classes>
+            <class name="tests.DemoTest" />
+        </classes>
+    </test>
+</suite>

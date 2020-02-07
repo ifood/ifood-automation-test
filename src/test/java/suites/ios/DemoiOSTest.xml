@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login Android" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="listeners.Injector" />
+        <listener class-name="listeners.TestListener" />
+    </listeners>
+    <test name="Efetuar Login iOS">
+        <parameter name="platform" value="iOSSimulator"/>
+        <parameter name="bundleId" value="com.ifood.qa.app"/>
+        <parameter name="device" value="iPhone 11 Pro Max"/>
+        <parameter name="udid" value="3E004A9F-FECD-49A9-BCDB-5C8282E0242B"/>
+        <parameter name="url" value="http://localhost:4723/wd/hub"/>
+        <classes>
+            <class name="tests.DemoTest" />
+        </classes>
+    </test>
+</suite>
