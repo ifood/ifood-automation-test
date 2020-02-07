@@ -8,3 +8,5 @@ gradlew
 gradlew.bat
 out/
 build/
+/.idea/markdown-navigator
+/.idea/sbt.xml
