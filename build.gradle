@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+}
+
+group 'test-ifood'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //Appium e frameworks de teste
+    testCompile group: 'org.testng', name: 'testng', version: "${org_testng}"
+    compile group: 'io.appium', name: 'java-client', version: "${appium_java_client}"
+    testImplementation group: 'org.hamcrest', name: 'hamcrest-all', version: "${org_hamcrest}"
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: "${assertj_core}"
+
+    //Log4J
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: "${log4j}"
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: "${log4j}"
+    //Json
+    compile group: 'org.json', name: 'json', version: '20180130'
+
+}
+
+test() {
+    useTestNG() {
+
+        useDefaultListeners = true
+        preserveOrder = true
+
+        testLogging.showStandardStreams = true
+
+
+        String suiteXML = System.properties.getProperty("suiteXML")
+        String var = suiteXML
+
+        if(null != var) {
+            println "A suite escolhida para teste é: " + suiteXML
+            suites (suiteXML)
+        } else {
+            println "Por não encontrar a suite informanda a default é: src/test/java/suites/android/DemoTest.xml"
+            suites("src/test/java/suites/android/DemoTest.xml")
+        }
+
+    }
+    testLogging.showStandardStreams = true
+    ignoreFailures = true
+}
+
+task listTests {
+    File srcDir
+    FileCollection collection = files { srcDir.listFiles() }
+    srcDir = file('src/test/java/suites/')
+    println "As suites de teste disponíveis são listadas abaixo.\nCaso queira executar alguma delas, " +
+            "basta indicá-la como parâmetro no 'gradle test'.\nPor exemplo, " +
+            "'gradle clean test -DsuiteXML=\"src/test/java/suites/android/DemoTest.xml\"'\n"
+    collection.collect { relativePath(it) }.sort().each {
+        println "TestNG suite: " + it
+    }
+}
