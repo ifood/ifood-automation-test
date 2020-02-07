@@ -42,3 +42,47 @@ The versions can be found in ```gradle.properties```
 
 Ther artifacts used was taken from this repository: https://github.com/ifood/ifood-automation-test
 
+
+
+# TODO
+
+Jenkins File:
+
+Just a start sample:
+
+```bash
+    agent { node { label 'docker' } }
+
+    environment {
+        GIT_COMMIT_URL = GIT_URL.minus('.git')
+    }
+    
+
+    stages {
+        stage('Android tests') {
+            steps {
+                sh './gradlew clean test -DsuiteXML="src/test/java/suites/android/DemoTest.xml"
+            }
+        }
+
+        stage('Android tests') {
+            steps {
+                sh './gradlew clean test -DsuiteXML="src/test/java/suites/android/DemoTest.xml"
+            }
+        }
+
+    }
+
+        post {
+        always {
+            cleanWs()
+        }
+        success {
+            slackSend (color: '#3cab54', message: "Deu bom: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+        }
+        failure {
+            slackSend (color: '#FF0000', message: "Deu ruim '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})")
+        }
+    }
+```
+
