@@ -12,7 +12,7 @@ import Infrastructure.AppSettings;
 
 public class BasePage {
 
-    public static MobileElement FindElement(MobileBy selector)
+    public static MobileElement FindElement(By selector)
     {
         return (MobileElement) DriverWaiter().until(ExpectedConditions.presenceOfElementLocated(selector));
     }
