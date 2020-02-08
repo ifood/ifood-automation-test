@@ -2,12 +2,12 @@ package Infrastructure;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+
 import static Infrastructure.AppSettings.remoteURL;
 
 public class DriverFactory {
@@ -41,16 +41,14 @@ public class DriverFactory {
 
     private static DesiredCapabilities CreateCapabilities(){
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+
         desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("deviceName", "emulator-5554");
         desiredCapabilities.setCapability("automationName", "uiautomator2");
         desiredCapabilities.setCapability("appiumVersion", "1.16.0");
-
-
         desiredCapabilities.setCapability("appPackage", "com.ifood.testqa");
         desiredCapabilities.setCapability("appActivity", "host.exp.exponent.MainActivity");
 
-        //desiredCapabilities.setCapability(MobileCapabilityType.APP, "C:/iFood/ifood-automation-test/ifood-test.apk");
         return desiredCapabilities;
     }
 

@@ -6,9 +6,12 @@ import Pages.LogInPage;
 import org.junit.*;
 
 public class CreateStudentTest {
+
+    // Pages
     private static LogInPage loginPage;
     private static CreateAlunoPage alunoPage;
 
+    // Tests data
     private static String codigo;
     private static String aluno;
 
@@ -45,8 +48,8 @@ public class CreateStudentTest {
     public void CreateAlunoWithEmptyFields(){
         alunoPage.CreateAluno("", "");
         Assert.assertEquals(
-                "Aluno cant be created with empty fields",
-                alunoPage.RequiredFieldsAlert().getText(),
+                "Incorrect error message",
+                alunoPage.RequiredFieldsAlertMessage().getText(),
                 "Os campos devem ser preenchidos!");
     }
 
@@ -55,7 +58,7 @@ public class CreateStudentTest {
         alunoPage.CreateAluno(codigo, aluno);
         Assert.assertEquals(
                 "Codigo cant be inserted twice",
-                alunoPage.DuplicatedCodeAlert().getText(),
+                alunoPage.DuplicatedCodeAlertMessage().getText(),
                 "Este código já existe!");
     }
 

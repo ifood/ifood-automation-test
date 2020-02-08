@@ -29,7 +29,7 @@ public class CreateAlunoPage extends BasePage{
         return FindElement(MobileBy.xpath("//android.widget.TextView[@text='Cancelar']"));
     }
 
-    public MobileElement RequiredFieldsAlert() {
+    public MobileElement RequiredFieldsAlertMessage() {
         return FindElement(MobileBy.id("android:id/alertTitle"));
     }
 
@@ -50,8 +50,8 @@ public class CreateAlunoPage extends BasePage{
     }
 
     // Simulei a existencia deste elemento para automatizar um cenario cujo encontrei um bug
-    public MobileElement DuplicatedCodeAlert() {
-        return FindElement(MobileBy.xpath("//android.view.ViewGroup/android.widget.TextView[3]"));
+    public MobileElement DuplicatedCodeAlertMessage() {
+        return FindElement(MobileBy.id("android:id/alertMessage"));
     }
 
 
