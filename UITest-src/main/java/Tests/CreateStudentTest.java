@@ -84,9 +84,4 @@ public class CreateStudentTest {
                 loginPage.EmailInput().isDisplayed());
     }
 
-    @After
-    public void TestTearDown(){
-        DriverFactory.getDriver().resetApp();
-    }
-
 }

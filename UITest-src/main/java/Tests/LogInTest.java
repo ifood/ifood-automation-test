@@ -43,8 +43,4 @@ public class LogInTest {
                 "Erro no login! :(");
     }
 
-    @After
-    public void TestTearDown(){
-        DriverFactory.getDriver().resetApp();
-    }
 }

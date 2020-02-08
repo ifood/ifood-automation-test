@@ -1,8 +1,6 @@
 package Infrastructure;
 
-
 import org.junit.After;
-
 import static Infrastructure.DriverFactory.killDriver;
 
 public class BaseTest {
@@ -10,6 +8,8 @@ public class BaseTest {
     @After
     public void TestCleanup()
     {
-        killDriver();
+        if (AppSettings.CLOSE_DRIVER_BETWEEN_TESTS){
+            killDriver();
+        }
     }
 }
