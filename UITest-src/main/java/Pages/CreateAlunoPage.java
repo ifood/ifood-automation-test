@@ -33,10 +33,6 @@ public class CreateAlunoPage extends BasePage{
         return FindElement(MobileBy.id("android:id/alertTitle"));
     }
 
-    public MobileElement RequiredFieldsAlertOKButton() {
-        return FindElement(MobileBy.id("android:id/button1"));
-    }
-
     public MobileElement AlunosListItem(String aluno) {
         return FindElement(MobileBy.xpath("//android.widget.TextView[@text='" + aluno + "']"));
     }

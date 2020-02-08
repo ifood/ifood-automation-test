@@ -22,7 +22,9 @@ public class LogInTest {
     @Test
     public void LoginWithSuccess() {
         loginPage.Login("teste@teste.com", "123456");
-        Assert.assertTrue(studentPage.LogOutButton().isDisplayed());
+        Assert.assertTrue(
+                "LogIn failed",
+                studentPage.LogOutButton().isDisplayed());
     }
 
     @Test
@@ -32,6 +34,9 @@ public class LogInTest {
                 "Incorrect error message",
                 loginPage.ErrorMessage().getText(),
                 "Erro no login! :(");
+        Assert.assertFalse(
+                "User redirected without log in",
+                studentPage.LogOutButton().isDisplayed());
     }
 
     @Test
@@ -41,6 +46,9 @@ public class LogInTest {
                 "Incorrect error message",
                 loginPage.ErrorMessage().getText(),
                 "Erro no login! :(");
+        Assert.assertFalse(
+                "User redirected without log in",
+                studentPage.LogOutButton().isDisplayed());
     }
 
 }

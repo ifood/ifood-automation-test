@@ -51,6 +51,9 @@ public class CreateStudentTest {
                 "Incorrect error message",
                 alunoPage.RequiredFieldsAlertMessage().getText(),
                 "Os campos devem ser preenchidos!");
+        Assert.assertFalse(
+                "Aluno should not be created",
+                alunoPage.AlunosListItem(codigo + " - " + aluno).isDisplayed());
     }
 
     @Test
@@ -60,6 +63,9 @@ public class CreateStudentTest {
                 "Codigo cant be inserted twice",
                 alunoPage.DuplicatedCodeAlertMessage().getText(),
                 "Este código já existe!");
+        Assert.assertFalse(
+                "Aluno should not be created",
+                alunoPage.AlunosListItem(codigo + " - " + aluno).isDisplayed());
     }
 
     @Test
