@@ -9,19 +9,19 @@ public class LogInPage extends BasePage {
     // Element Mapper
     //================================================================================
 
-    protected MobileElement EmailInput() {
+    public MobileElement EmailInput() {
         return FindElement(MobileBy.xpath("//android.widget.EditText[@text='E-mail']"));
     }
 
-    protected MobileElement SenhaInput() {
+    public MobileElement SenhaInput() {
         return FindElement(MobileBy.xpath("//android.widget.EditText[@text='Senha']"));
     }
 
-    protected MobileElement EntrarButton() {
+    public MobileElement EntrarButton() {
         return FindElement(MobileBy.xpath("//android.widget.TextView[@text='Entrar']"));
     }
 
-    protected MobileElement ErrorMessage() {
+    public MobileElement ErrorMessage() {
         return FindElement(MobileBy.xpath("//android.widget.TextView[@content-desc='lognFail']"));
     }
 
@@ -30,15 +30,15 @@ public class LogInPage extends BasePage {
     // Element Iterators
     //================================================================================
 
-    private void InsertEmail(String email) {
+    public void InsertEmail(String email) {
         EmailInput().sendKeys((email));
     }
 
-    private void InsertSenha(String senha) {
+    public void InsertSenha(String senha) {
         SenhaInput().sendKeys((senha));
     }
 
-    private void ClickEntrar() {
+    public void ClickEntrar() {
         EntrarButton().click();
     }
 
@@ -47,8 +47,7 @@ public class LogInPage extends BasePage {
     // Page Behaviors
     //================================================================================
 
-    public void Login(String email, String senha) throws InterruptedException {
-        Thread.sleep(10000);
+    public void Login(String email, String senha) {
         InsertEmail(email);
         InsertSenha(senha);
         ClickEntrar();
