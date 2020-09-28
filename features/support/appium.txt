@@ -1,0 +1,7 @@
+[caps]
+platformName = "android"
+app = "C:/Users/Admin/Desktop/Estudo/ifood/ifood-automation-test/ifood-test.apk"
+deviceName = "0036058706"
+unicodeKeyboard = true
+newCommandTimeout = 400000
+skipDeviceInitialization = true
