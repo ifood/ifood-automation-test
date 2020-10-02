@@ -12,7 +12,7 @@ Let's move on with some small rules...
 * Everything we run we use a jenkinsFile on Jenkins.
 
 ## Non functional requirements
-* Briefly elaborate on your solution, architecture details, choice of patterns and frameworks.
+* Briefly elaborate on your solution,w architecture details, choice of patterns and frameworks.
 * Use whatever language, tools and frameworks you feel comfortable to, but keep an eye on the hints section.
 * Fork this repository and submit your code.
 

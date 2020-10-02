@@ -1,0 +1,14 @@
+
+9squid:S2386"Make this member "protected".(„Òú¤üÿÿÿÿ
+Ksquid:S1444
+"/Make this "public static arrayList" field final(ÈÇ™Èşÿÿÿÿ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(ù­¤£úÿÿÿÿ
+Jsquid:S1444".Make this "public static mapOfMap" field final(„Òú¤üÿÿÿÿ
+usquid:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈÇ™Èşÿÿÿÿ
+Qsquid:S1444	"5Make this "public static stringStringMap" field final(ÙÈØ³ùÿÿÿÿ
+squid:S1319
+"tThe type of the "arrayList" object should be an interface such as "List" rather than the implementation "ArrayList".(ÈÇ™Èşÿÿÿÿ
+9squid:S2386
+"Make this member "protected".(ÈÇ™Èşÿÿÿÿ
+9squid:S2386	"Make this member "protected".(ÙÈØ³ùÿÿÿÿ

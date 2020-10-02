@@ -1,0 +1,7 @@
+
+>squid:S1068"'Remove this unused "map" private field.(ê‹ê
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ªŠè¥şÿÿÿÿ8ïÜÒ»Î.
+qsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æÁ^
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸Ğœùÿÿÿÿ

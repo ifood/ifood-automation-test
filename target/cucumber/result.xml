@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="6" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="19" time="284.859247">
+<testcase classname="Add new student" name="Add new student" time="15.941662">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#10;&#9;at features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)&#10;&#9;at ✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)&#10;"><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the save option...........................................passed
+Then a successful message should be displayed...............................failed
+And the student added should be displayed in the list.......................skipped
+And the list should contain the old students................................skipped
+And the list size should be increased by one item...........................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Salv[ar]> but was:<Salv[o]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)
+	at ✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="Add new student" name="Add new student 2" time="14.635053">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#10;&#9;at features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)&#10;&#9;at ✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)&#10;"><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the save option...........................................passed
+Then a successful message should be displayed...............................failed
+And the student added should be displayed in the list.......................skipped
+And the list should contain the old students................................skipped
+And the list size should be increased by one item...........................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Salv[ar]> but was:<Salv[o]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)
+	at ✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="Add new student" name="Add new student 3" time="15.064146">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#10;&#9;at features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)&#10;&#9;at ✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)&#10;"><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the save option...........................................passed
+Then a successful message should be displayed...............................failed
+And the student added should be displayed in the list.......................skipped
+And the list should contain the old students................................skipped
+And the list size should be increased by one item...........................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Salv[ar]> but was:<Salv[o]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)
+	at ✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)
+]]></failure>
+</testcase>
+<testcase classname="Add new student" name="Add new student 4" time="8.036113">
+<failure message="org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3256a5e6-67da-4854-a434-25305e5f516e&#10;*** Element info: {Using=xpath, value=//android.widget.EditText[@content-desc='email']}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)&#10;&#9;at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#10;&#9;at features.elements_mapping.android.LoginMapping.getUserField(LoginMapping.java:23)&#10;&#9;at features.pages.android.LoginPage.login(LoginPage.java:16)&#10;&#9;at features.steps.AddNewStudentSteps.is_logged_in_the_application(AddNewStudentSteps.java:23)&#10;&#9;at ✽.&quot;Daniela&quot; is logged in the application(src/test/resources/requirements/add_new_student.feature:8)&#10;"><![CDATA[Given "Daniela" is logged in the application................................failed
+And she fills the fields with the following values..........................skipped
+When she triggers the save option...........................................skipped
+Then a successful message should be displayed...............................skipped
+And the student added should be displayed in the list.......................skipped
+And the list should contain the old students................................skipped
+And the list size should be increased by one item...........................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 3256a5e6-67da-4854-a434-25305e5f516e
+*** Element info: {Using=xpath, value=//android.widget.EditText[@content-desc='email']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at features.elements_mapping.android.LoginMapping.getUserField(LoginMapping.java:23)
+	at features.pages.android.LoginPage.login(LoginPage.java:16)
+	at features.steps.AddNewStudentSteps.is_logged_in_the_application(AddNewStudentSteps.java:23)
+	at ✽."Daniela" is logged in the application(src/test/resources/requirements/add_new_student.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Add new student" name="Cancel the add action after fill the field(s)" time="13.734051">
+<system-out><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the cancel option.........................................passed
+Then the both fields should be cleared......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new student" name="Cancel the add action after fill the field(s) 2" time="14.465705">
+<system-out><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the cancel option.........................................passed
+Then the both fields should be cleared......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new student" name="Cancel the add action after fill the field(s) 3" time="14.498399">
+<system-out><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the cancel option.........................................passed
+Then the both fields should be cleared......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new student" name="Try to add a new student with some empty fields" time="16.210334">
+<failure message="org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //android.widget.ScrollView/descendant::android.widget.TextView' do not exist in DOM anymore&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 7d61d514-7cdc-4e1a-9d8e-de7a086167ed&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#10;&#9;at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)&#10;&#9;at io.appium.java_client.MobileElement.execute(MobileElement.java:1)&#10;&#9;at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)&#10;&#9;at features.pages.android.AddNewStudent.checkIfTheCurrentListIsEqualToTheOldList(AddNewStudent.java:57)&#10;&#9;at features.steps.AddNewStudentSteps.the_new_student_is_not_added_to_the_list(AddNewStudentSteps.java:158)&#10;&#9;at ✽.the new student is not added to the list(src/test/resources/requirements/add_new_student.feature:47)&#10;"><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the save option...........................................passed
+Then the error message about the required field should be displayed.........passed
+And the new student is not added to the list................................failed
+And the completed field should remain with the written value................skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: Cached elements 'By.xpath: //android.widget.ScrollView/descendant::android.widget.TextView' do not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 7d61d514-7cdc-4e1a-9d8e-de7a086167ed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at features.pages.android.AddNewStudent.checkIfTheCurrentListIsEqualToTheOldList(AddNewStudent.java:57)
+	at features.steps.AddNewStudentSteps.the_new_student_is_not_added_to_the_list(AddNewStudentSteps.java:158)
+	at ✽.the new student is not added to the list(src/test/resources/requirements/add_new_student.feature:47)
+]]></failure>
+</testcase>
+<testcase classname="Add new student" name="Try to add a new student with some empty fields 2" time="14.655247">
+<system-out><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with the following values..........................passed
+When she triggers the save option...........................................passed
+Then the error message about the required field should be displayed.........passed
+And the new student is not added to the list................................passed
+And the completed field should remain with the written value................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add new student" name="Try to add a student already present in the list" time="44.615769">
+<failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 550f8b42-5f90-48d8-842e-785705c51514&#10;*** Element info: {Using=xpath, value=//android.widget.TextView[@content-desc='haveCode']}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)&#10;&#9;at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#10;&#9;at features.elements_mapping.android.AddNewStudentMapping.getErrorMessageAboutAlreadyAddedStudent(AddNewStudentMapping.java:80)&#10;&#9;at features.steps.AddNewStudentSteps.theErrorMessageAboutStudentAlreadyAddedShouldBeDisplayed(AddNewStudentSteps.java:219)&#10;&#9;at ✽.the error message about student already added should be displayed(src/test/resources/requirements/add_new_student.feature:58)&#10;"><![CDATA[Given "Daniela" is logged in the application................................passed
+And she fills the fields with an added student..............................passed
+When she triggers the save option...........................................passed
+Then the error message about student already added should be displayed......failed
+And the new student is not added to the list................................skipped
+And the completed field should remain with the written value................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 550f8b42-5f90-48d8-842e-785705c51514
+*** Element info: {Using=xpath, value=//android.widget.TextView[@content-desc='haveCode']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at features.elements_mapping.android.AddNewStudentMapping.getErrorMessageAboutAlreadyAddedStudent(AddNewStudentMapping.java:80)
+	at features.steps.AddNewStudentSteps.theErrorMessageAboutStudentAlreadyAddedShouldBeDisplayed(AddNewStudentSteps.java:219)
+	at ✽.the error message about student already added should be displayed(src/test/resources/requirements/add_new_student.feature:58)
+]]></failure>
+</testcase>
+<testcase classname="Add new student" name="Try to add the same student twice" time="16.159223">
+<system-out><![CDATA[Given "Daniela" is logged in the application................................passed
+And she adds a student with the following value.............................passed
+When she tries to add the same student added using the same credentials.....passed
+Then the error message about student already added should be displayed......passed
+And the completed field should remain with the written value................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="login successful" time="12.435943">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with valid values............................passed
+When she triggers the log in option.........................................passed
+Then the include new student section should be displayed....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Try login with invalid values" time="11.386473">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with the following values....................passed
+When she triggers the log in option.........................................passed
+Then the error message related the login error should be displayed..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Try login with invalid values 2" time="11.252593">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with the following values....................passed
+When she triggers the log in option.........................................passed
+Then the error message related the login error should be displayed..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Try login with invalid values 3" time="12.456718">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with the following values....................passed
+When she triggers the log in option.........................................passed
+Then the error message related the login error should be displayed..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Try login with invalid values 4" time="11.335497">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with the following values....................passed
+When she triggers the log in option.........................................passed
+Then the error message related the login error should be displayed..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Try login with invalid values 5" time="12.83527">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with the following values....................passed
+When she triggers the log in option.........................................passed
+Then the error message related the login error should be displayed..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Try login with invalid values 6" time="11.889748">
+<system-out><![CDATA[Given "Daniela" is in the login screen......................................passed
+And she fills the login fields with the following values....................passed
+When she triggers the log in option.........................................passed
+Then the error message related the login error should be displayed..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Logout" name="Logout" time="13.251303">
+<system-out><![CDATA[Given "Daniela" is logged in the application................................passed
+When he clicks on the logout option.........................................passed
+Then the login screen should be displayed...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

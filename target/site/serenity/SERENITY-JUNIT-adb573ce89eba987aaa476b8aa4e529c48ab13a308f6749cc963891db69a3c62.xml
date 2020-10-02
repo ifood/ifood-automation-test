@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Add new student" skipped="0" tests="1" time="20.67" timestamp="2020-10-02 04:54:06"><testcase name="Try to add a student already present in the list"><error message="Index 1 out of bounds for length 1" type="java.lang.ArrayIndexOutOfBoundsException">Index 1 out of bounds for length 1</error><system-err>Index 1 out of bounds for length 1
+features.pages.ios.AddNewStudentIos.fillTheFieldsWithAddedStudent(AddNewStudentIos.java:67)
+features.steps.AddNewStudentSteps.sheFillsTheFieldsWithAnAddedStudent(AddNewStudentSteps.java:210)
+✽.she fills the fields with an added student(src/test/resources/requirements/add_new_student.feature:56)
+</system-err></testcase></testsuite>
