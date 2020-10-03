@@ -1,69 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="3" name="Add new student" skipped="0" tests="11" time="188.12" timestamp="2020-10-02 06:22:15"><testcase name="Add new student"><error message="expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;" type="java.lang.AssertionError">expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;</error><system-err>expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;
-features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)
-✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)
-</system-err></testcase><testcase name="Cancel the add action after fill the field(s)"/><testcase name="Try to add a new student with some empty fields"><error message="Cached elements 'By.xpath: //android.widget.ScrollView/descendant::android.widget.TextView' do not exist in DOM anymore&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 7d61d514-7cdc-4e1a-9d8e-de7a086167ed&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.StaleElementReferenceException">Cached elements 'By.xpath: //android.widget.ScrollView/descendant::android.widget.TextView' do not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 7d61d514-7cdc-4e1a-9d8e-de7a086167ed
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: driver.version: AppiumDriver</error><system-err>Cached elements 'By.xpath: //android.widget.ScrollView/descendant::android.widget.TextView' do not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 7d61d514-7cdc-4e1a-9d8e-de7a086167ed
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: driver.version: AppiumDriver
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="10" failures="0" name="Add new student" skipped="0" tests="10" time="0.74" timestamp="2020-10-03 12:16:52"><testcase name="Add new student"><error message="Connection refused" type="java.net.ConnectException">Connection refused</error><system-err>Connection refused
+okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+okhttp3.RealCall.execute(RealCall.java:77)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
 io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
 io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
 io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-features.pages.android.AddNewStudent.checkIfTheCurrentListIsEqualToTheOldList(AddNewStudent.java:57)
-features.steps.AddNewStudentSteps.the_new_student_is_not_added_to_the_list(AddNewStudentSteps.java:158)
-✽.the new student is not added to the list(src/test/resources/requirements/add_new_student.feature:47)
-</system-err></testcase><testcase name="Try to add a student already present in the list"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 550f8b42-5f90-48d8-842e-785705c51514&#10;*** Element info: {Using=xpath, value=//android.widget.TextView[@content-desc='haveCode']}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 550f8b42-5f90-48d8-842e-785705c51514
-*** Element info: {Using=xpath, value=//android.widget.TextView[@content-desc='haveCode']}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: driver.version: AppiumDriver</error><system-err>An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
-Session ID: 550f8b42-5f90-48d8-842e-785705c51514
-*** Element info: {Using=xpath, value=//android.widget.TextView[@content-desc='haveCode']}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
-Driver info: driver.version: AppiumDriver
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Cancel the add action after fill the field(s)"><error message="Connection refused" type="java.net.ConnectException">Connection refused</error><system-err>Connection refused
+okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+okhttp3.RealCall.execute(RealCall.java:77)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
 io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
 io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
 io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
-io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
-io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
-io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-features.elements_mapping.android.AddNewStudentMapping.getErrorMessageAboutAlreadyAddedStudent(AddNewStudentMapping.java:80)
-features.steps.AddNewStudentSteps.theErrorMessageAboutStudentAlreadyAddedShouldBeDisplayed(AddNewStudentSteps.java:219)
-✽.the error message about student already added should be displayed(src/test/resources/requirements/add_new_student.feature:58)
-</system-err></testcase><testcase name="Try to add the same student twice"/></testsuite>
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Try to add a new student with some empty fields"><error message="Connection refused" type="java.net.ConnectException">Connection refused</error><system-err>Connection refused
+okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+okhttp3.RealCall.execute(RealCall.java:77)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Try to add the same student twice"><error message="The following error occurred: Connection refused&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException">The following error occurred: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: driver.version: AppiumDriver</error><system-err>The following error occurred: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: driver.version: AppiumDriver
+io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase></testsuite>

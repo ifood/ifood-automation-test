@@ -21,12 +21,11 @@ public class AddNewStudentMapping extends AppiumActions {
 
     private final By studentCodeAndNameList = By.xpath("//android.widget.ScrollView/descendant::android.widget.TextView");
 
-  private final By successfulMessageTitle =
-      By.xpath(
-          "//android.view.ViewGroup[@content-desc='logout']/following-sibling::android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[1]");
+  private final By successfulMessageTitle = By.xpath(
+          "//android.view.ViewGroup[@content-desc='cancelar']/following-sibling::android.view.ViewGroup/descendant::android.widget.TextView[1]");
 
     private final By successfulMessage = By.xpath(
-            "//android.widget.ScrollView/following-sibling::android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[last()]");
+            "//android.view.ViewGroup[@content-desc='cancelar']/following-sibling::android.view.ViewGroup/descendant::android.widget.TextView[last()]");
 
     private final By requiredFieldMessage = By.xpath(
             "//*[contains(@resource-id,'alertTitle')]");

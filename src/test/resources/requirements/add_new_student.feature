@@ -37,7 +37,7 @@ Feature: Add new student
       |       |0ADouradoZ9  |
       |   059 |0ADouradoZ9  |
 
-  @negative @android @ios @bug-ios
+  @negative @android @ios @bug-ios-0
   Scenario Outline: Try to add a new student with some empty fields
     And she fills the fields with the following values
       |code|<code>|
@@ -51,8 +51,8 @@ Feature: Add new student
       |         |    test    |
       | 12344   |            |
 
-  @negative @android @bug-android @ios-blocked
-  Scenario: Try to add a student already present in the list
+  @negative @android @ios @bug-android-0 @bug-ios-0
+  Scenario: Try to add a student already present in the default list
     And she fills the fields with an added student
     When she triggers the save option
     Then the error message about student already added should be displayed

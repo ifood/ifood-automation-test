@@ -186,19 +186,17 @@ public class AddNewStudentSteps {
 
     @Then("^a successful message should be displayed$")
     public void aSuccessfulMessageShouldBeDisplayed() {
-        String messageTitle =  ReadJsonFile.getReadJsonByPath(new String[] {"messages", "add-new-student", "successful-title"});
-        String successfulMessage = ReadJsonFile.getReadJsonByPath(new String[] {"messages", "add-new-student", "successful"});
+        String expectedMessageTitle =  ReadJsonFile.getReadJsonByPath(new String[] {"messages", "add-new-student", "successful-title"});
+        String expectedSuccessfulMessage = ReadJsonFile.getReadJsonByPath(new String[] {"messages", "add-new-student", "successful"});
+        String currentMessage, currentTitle;
         if (System.getProperty("platform").toLowerCase().equals("android")) {
-            Assert.assertEquals(
-                    PagesAndroid.addNewStudentPage().addNewStudentMapping.getSuccessfulMessageTitle().getText(),
-                    messageTitle);
-            Assert.assertEquals(
-                    PagesAndroid.addNewStudentPage().addNewStudentMapping.getSuccessfulMessage().getText(),
-                    successfulMessage);
+            currentTitle = PagesAndroid.addNewStudentPage().addNewStudentMapping.getSuccessfulMessageTitle().getText();
+            currentMessage = PagesAndroid.addNewStudentPage().addNewStudentMapping.getSuccessfulMessage().getText();
+            Assert.assertEquals(expectedMessageTitle, currentTitle);
+            Assert.assertEquals(expectedSuccessfulMessage, currentMessage);
         }else{
-            Assert.assertEquals(
-                    PagesIos.addNewStudentPage().addNewStudentMapping.getSuccessfulMessage().getText(),
-                    messageTitle +" "+successfulMessage);
+            Assert.assertEquals(expectedMessageTitle +" "+expectedSuccessfulMessage,
+                    PagesIos.addNewStudentPage().addNewStudentMapping.getSuccessfulMessage().getText());
         }
     }
 

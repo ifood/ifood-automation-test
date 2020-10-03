@@ -1,1 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login" skipped="0" tests="7" time="83.6" timestamp="2020-10-02 06:25:23"><testcase name="login successful"/><testcase name="Try login with invalid values"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="7" failures="0" name="Login" skipped="0" tests="7" time="0.05" timestamp="2020-10-03 12:16:53"><testcase name="login successful"><error message="The following error occurred: Connection refused&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException">The following error occurred: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: driver.version: AppiumDriver</error><system-err>The following error occurred: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: driver.version: AppiumDriver
+io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Try login with invalid values"><error message="Connection refused" type="java.net.ConnectException">Connection refused</error><system-err>Connection refused
+okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+okhttp3.RealCall.execute(RealCall.java:77)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase></testsuite>

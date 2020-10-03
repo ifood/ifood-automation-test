@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-10-2020 18:22</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-10-2020 12:16</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -248,29 +248,29 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-FAILURE"><a href="#0">1</a></td>
-                                <td class="test-FAILURE"><a
+                            <td class="test-ERROR"><a href="#0">1</a></td>
+                                <td class="test-ERROR"><a
                                             href="#0">1</a>
                                 </td>
-                                <td class="test-FAILURE"><a
+                                <td class="test-ERROR"><a
                                             href="#0">Daniela</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-FAILURE"><a href="#1">2</a></td>
-                                <td class="test-FAILURE"><a
+                            <td class="test-ERROR"><a href="#1">2</a></td>
+                                <td class="test-ERROR"><a
                                             href="#1">2</a>
                                 </td>
-                                <td class="test-FAILURE"><a
+                                <td class="test-ERROR"><a
                                             href="#1">Fernando</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-FAILURE"><a href="#2">3</a></td>
-                                <td class="test-FAILURE"><a
+                            <td class="test-ERROR"><a href="#2">3</a></td>
+                                <td class="test-ERROR"><a
                                             href="#2">3</a>
                                 </td>
-                                <td class="test-FAILURE"><a
+                                <td class="test-ERROR"><a
                                             href="#2">Dourado</a>
                                 </td>
                         </tr>
@@ -304,13 +304,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-FAILURE">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -328,19 +328,57 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">15.89s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">0.52s</span></td>
                     </tr>
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                                    <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.net.ConnectException: Connection refused</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.net.ConnectException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)<br />okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)<br />okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />okhttp3.RealCall.execute(RealCall.java:77)<br />io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)<br />features.utils.BasePage.setUp(BasePage.java:37)<br />features.utils.Hooks.setup(Hooks.java:11)<br />cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection0" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -354,15 +392,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3.52s</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -376,15 +414,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2.09s</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -398,15 +436,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.68s</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -420,53 +458,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">1.02s</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                                    <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-5""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-5">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)<br />✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                    <tr class="test-SKIPPED">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-4"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -480,15 +480,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SKIPPED">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-5"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -502,15 +502,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SKIPPED">
+                    <tr class="test-IGNORED">
 
                         <td width="70" class="step-icon">
                             <a name="0-6"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -524,20 +524,20 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="130"><span class="nested-group-step">IGNORED</span></td>
                         <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -555,19 +555,57 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">14.63s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">0.07s</span></td>
                     </tr>
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                                    <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.net.ConnectException: Connection refused</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-9""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-9">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.net.ConnectException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)<br />okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)<br />okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />okhttp3.RealCall.execute(RealCall.java:77)<br />io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)<br />features.utils.BasePage.setUp(BasePage.java:37)<br />features.utils.Hooks.setup(Hooks.java:11)<br />cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection1" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -581,15 +619,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3.73s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -603,15 +641,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2.03s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -625,15 +663,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.64s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -647,47 +685,9 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">0.97s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                                    <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-13""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-13">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)<br />✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
                     <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
@@ -758,13 +758,13 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2 failure-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection2 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -782,19 +782,57 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">15.06s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">0.05s</span></td>
                     </tr>
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                                    <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.net.ConnectException: Connection refused</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-17""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-17">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.net.ConnectException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)<br />okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)<br />okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />okhttp3.RealCall.execute(RealCall.java:77)<br />io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)<br />features.utils.BasePage.setUp(BasePage.java:37)<br />features.utils.Hooks.setup(Hooks.java:11)<br />cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection2" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -808,15 +846,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">4.06s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -830,15 +868,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1.99s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -852,15 +890,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.67s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -874,47 +912,9 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">FAILURE</span></td>
-                        <td width="100"><span class="nested-group-step">1s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                                    <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: expected:&lt;Salv[ar]&gt; but was:&lt;Salv[o]&gt;</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-21""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-21">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>features.steps.AddNewStudentSteps.aSuccessfulMessageShouldBeDisplayed(AddNewStudentSteps.java:192)<br />✽.a successful message should be displayed(src/test/resources/requirements/add_new_student.feature:16)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
                     <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
@@ -1010,18 +1010,56 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">ERROR</span></td>
-                        <td width="100"><span class="top-level-step">8.04s</span></td>
+                        <td width="100"><span class="top-level-step">0.05s</span></td>
                     </tr>
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                                    <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.net.ConnectException: Connection refused</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-25""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-25">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.net.ConnectException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)<br />okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)<br />okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)<br />okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)<br />okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)<br />okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)<br />okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)<br />okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)<br />okhttp3.RealCall.execute(RealCall.java:77)<br />io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)<br />io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84)<br />io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94)<br />features.utils.BasePage.setUp(BasePage.java:37)<br />features.utils.Hooks.setup(Hooks.java:11)<br />cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection3" class="step-table-nested" style="display:none;">
 
-                    <tr class="test-ERROR">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="3-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -1035,47 +1073,9 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">ERROR</span></td>
-                        <td width="100"><span class="nested-group-step">0.87s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
-                        <tr class="test-ERROR">
-                            <td width="40">&nbsp</td>
-                                    <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;Diogos-MacBook-Pro.local&#39;, ip: &#39;2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0&#39;, os.name: &#39;Mac OS X&#39;, os.arch: &#39;x86_64&#39;, os.version: &#39;10.15.1&#39;, java.version: &#39;13.0.1&#39;<br>Driver info: io.appium.java_client.AppiumDriver<br>Capabilities {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, databaseEnabled: false, desired: {app: /Users/diogodourado/Projeto..., appActivity: host.exp.exponent.MainActivity, appPackage: com.ifood.testqa, autoWebviewTimeout: 4, automationName: UiAutomator2, deviceName: Awsomedroid, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: LINUX, platformVersion: 10, resetKeyboard: true, statBarHeight: 84, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}<br>Session ID: 3256a5e6-67da-4854-a434-25305e5f516e<br>*** Element info: {Using=xpath, value=//android.widget.EditText[@content-desc=&#39;email&#39;]}<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;Diogos-MacBook-Pro.local&#39;, ip: &#39;2804:431:cfd6:17a2:c0ae:46bd:ad51:79b3%en0&#39;, os.name: &#39;Mac OS X&#39;, os.arch: &#39;x86_64&#39;, os.version: &#39;10.15.1&#39;, java.version: &#39;13.0.1&#39;<br>Driver info: driver.version: AppiumDriver</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-26""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-26">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.WebDriverException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)<br />io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)<br />io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)<br />io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)<br />io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)<br />io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)<br />io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />features.elements_mapping.android.LoginMapping.getUserField(LoginMapping.java:23)<br />features.pages.android.LoginPage.login(LoginPage.java:16)<br />features.steps.AddNewStudentSteps.is_logged_in_the_application(AddNewStudentSteps.java:23)<br />✽."Daniela" is logged in the application(src/test/resources/requirements/add_new_student.feature:8)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
                     <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
@@ -1215,7 +1215,7 @@
                 <tr class="test-ERROR">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>53.78s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.58s</em></span></td>
                 </tr>
 
             </table>

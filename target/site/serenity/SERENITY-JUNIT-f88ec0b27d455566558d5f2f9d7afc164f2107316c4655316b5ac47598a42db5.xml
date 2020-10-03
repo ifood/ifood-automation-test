@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Logout" skipped="0" tests="1" time="13.25" timestamp="2020-10-02 06:26:47"><testcase name="Logout"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Logout" skipped="0" tests="1" time="0.0" timestamp="2020-10-03 12:16:54"><testcase name="Logout"><error message="The following error occurred: Connection refused&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.WebDriverException">The following error occurred: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: driver.version: AppiumDriver</error><system-err>The following error occurred: Connection refused
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:54d:a979:ce39:48aa:b693%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '13.0.1'
+Driver info: driver.version: AppiumDriver
+io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+features.utils.BasePage.setUp(BasePage.java:37)
+features.utils.Hooks.setup(Hooks.java:11)
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase></testsuite>

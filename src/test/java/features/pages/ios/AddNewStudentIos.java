@@ -61,10 +61,9 @@ public class AddNewStudentIos extends AppiumActions {
 
     public void fillTheFieldsWithAddedStudent() {
         waitUntilElementVisible(addNewStudentMapping.getCodeField());
-        String addedStudent = addNewStudentMapping.getStudentCodeAndNameList().get(0).getText();
-        String[] arr = addedStudent.split( " - ");
-        addNewStudentMapping.getCodeField().sendKeys(arr[0]);
-        addNewStudentMapping.getStudentField().sendKeys(arr[1]);
+        String code = addNewStudentMapping.getStudentCodeAndNameList().get(0).getText();
+        addNewStudentMapping.getCodeField().sendKeys(code);
+        addNewStudentMapping.getStudentField().sendKeys("Code of the first student");
     }
 
     public void addNewStudentByCredential(String code, String name) {

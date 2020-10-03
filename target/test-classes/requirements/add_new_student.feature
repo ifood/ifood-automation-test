@@ -37,7 +37,7 @@ Feature: Add new student
       |       |0ADouradoZ9  |
       |   059 |0ADouradoZ9  |
 
-  @negative @android @ios @bug-ios
+  @negative @android @ios @bug-ios-0
   Scenario Outline: Try to add a new student with some empty fields
     And she fills the fields with the following values
       |code|<code>|
@@ -51,7 +51,7 @@ Feature: Add new student
       |         |    test    |
       | 12344   |            |
 
-  @negative @android @bug-android @ios-blocked
+  @negative @android @ios @bug-android @test
   Scenario: Try to add a student already present in the list
     And she fills the fields with an added student
     When she triggers the save option
