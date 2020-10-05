@@ -20,20 +20,7 @@ Let's move on with some small rules...
 * Login: teste@teste.com
 * Password: 123456
 
-# Execute the automated tests
-###Note: 
-Setup the capabilities to recognize your device/emulator in ...
-src/test/java/capabilities/CapsAndroid.java
-or 
-src/test/java/capabilities/CapsIOS.java
-
-### Android
-mvn clean verify -P serenity -Dplatform=android -Dcucumber.options="--tags '@android'"
-### iOS
-mvn clean verify -P serenity -Dplatform=ios -Dcucumber.options="--tags '@ios'"
-
-
-##To view the report related to the last execution local in the Diogo Dourado machine
+#To view the report related to the last execution local in the Diogo Dourado machine
 Open the following file using Chrome
 
 Android
@@ -45,3 +32,15 @@ iOS
 ```
 last-report/ios/site/serenity/index.html
 ```
+
+# Execute the automated tests
+###Note: 
+Setup the capabilities to recognize your device/emulator in ...
+src/test/java/capabilities/CapsAndroid.java
+or 
+src/test/java/capabilities/CapsIOS.java
+
+### Android
+mvn clean verify -P serenity -Dplatform=android -Dcucumber.options="--tags '@android'"
+### iOS
+mvn clean verify -P serenity -Dplatform=ios -Dcucumber.options="--tags '@ios'"
