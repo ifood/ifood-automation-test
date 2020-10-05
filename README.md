@@ -33,7 +33,7 @@ mvn clean verify -P serenity -Dplatform=android -Dcucumber.options="--tags '@and
 mvn clean verify -P serenity -Dplatform=ios -Dcucumber.options="--tags '@ios'"
 
 
-#To view the report related to the last execution local in the Diogo Dourado machine
+##To view the report related to the last execution local in the Diogo Dourado machine
 Open the following file using Chrome
 
 Android
