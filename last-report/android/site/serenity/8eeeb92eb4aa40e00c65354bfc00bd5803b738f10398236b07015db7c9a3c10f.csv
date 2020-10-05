@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add new student","Try to add a new student with some empty fields","SUCCESS","2020-10-05T16:20:44.402-03:00[America/Sao_Paulo]","0.0","32.29"
+"Add new student","Try to add the same student twice","SUCCESS","2020-10-05T16:22:02.434-03:00[America/Sao_Paulo]","0.0","18.49"
+"Login","Try login with invalid values","SUCCESS","2020-10-05T16:23:24.259-03:00[America/Sao_Paulo]","0.0","111.13"

@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add new student","Try to add the same student twice only changing the code to uppercase","ERROR","2020-10-05T16:22:20.927-03:00[America/Sao_Paulo]","0.0","49.95"

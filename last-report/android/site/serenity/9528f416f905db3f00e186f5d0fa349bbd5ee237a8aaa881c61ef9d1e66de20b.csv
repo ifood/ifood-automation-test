@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add new student","Add new student","SUCCESS","2020-10-05T16:18:45.623-03:00[America/Sao_Paulo]","0.0","71.02"
+"Add new student","Cancel the add action after fill the field(s)","SUCCESS","2020-10-05T16:19:56.647-03:00[America/Sao_Paulo]","0.0","47.75"
+"Login","login successful","SUCCESS","2020-10-05T16:23:10.885-03:00[America/Sao_Paulo]","0.0","13.37"
+"Logout","Logout","SUCCESS","2020-10-05T16:25:15.392-03:00[America/Sao_Paulo]","0.0","26.68"

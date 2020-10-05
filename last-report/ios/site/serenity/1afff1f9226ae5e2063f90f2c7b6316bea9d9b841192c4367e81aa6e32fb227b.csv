@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add new student","Add new student","SUCCESS","2020-10-05T16:30:41.044-03:00[America/Sao_Paulo]","0.0","233.12"
+"Add new student","Cancel the add action after fill the field(s)","SUCCESS","2020-10-05T16:34:34.174-03:00[America/Sao_Paulo]","0.0","92.35"

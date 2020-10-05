@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Add new student" skipped="0" tests="12" time="561.35" timestamp="2020-10-05 04:30:41"><testcase name="Add new student"/><testcase name="Cancel the add action after fill the field(s)"/><testcase name="Try to add a new student with some empty fields"/><testcase name="Try to add a student already present in the default list"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., autoLaunch: true, browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, launchTimeout: 20000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 18000, platform: MAC, platformName: MAC, platformVersion: 13.3, takesScreenshot: true, udid: DE30F58D-9255-46BA-BC67-4AB..., webStorageEnabled: false, xcodeOrgId: 42BJ74CFXP, xcodeSigningId: iPhone Developer}&#10;Session ID: 352ce80e-47aa-45b6-a98b-653f3feb2be9&#10;*** Element info: {Using=name, value=haveCode}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., autoLaunch: true, browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, launchTimeout: 20000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 18000, platform: MAC, platformName: MAC, platformVersion: 13.3, takesScreenshot: true, udid: DE30F58D-9255-46BA-BC67-4AB..., webStorageEnabled: false, xcodeOrgId: 42BJ74CFXP, xcodeSigningId: iPhone Developer}
+Session ID: 352ce80e-47aa-45b6-a98b-653f3feb2be9
+*** Element info: {Using=name, value=haveCode}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: driver.version: AppiumDriver</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., autoLaunch: true, browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, launchTimeout: 20000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 18000, platform: MAC, platformName: MAC, platformVersion: 13.3, takesScreenshot: true, udid: DE30F58D-9255-46BA-BC67-4AB..., webStorageEnabled: false, xcodeOrgId: 42BJ74CFXP, xcodeSigningId: iPhone Developer}
+Session ID: 352ce80e-47aa-45b6-a98b-653f3feb2be9
+*** Element info: {Using=name, value=haveCode}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: driver.version: AppiumDriver
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:118)
+io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+features.elements_mapping.ios.AddNewStudentMapping.getErrorMessageAboutAlreadyAddedStudent(AddNewStudentMapping.java:69)
+features.steps.AddNewStudentSteps.theErrorMessageAboutStudentAlreadyAddedShouldBeDisplayed(AddNewStudentSteps.java:223)
+✽.the error message about student already added should be displayed(src/test/resources/requirements/add_new_student.feature:58)
+</system-err></testcase><testcase name="Try to add the same student twice"/><testcase name="Try to add the same student twice only changing the code to uppercase"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'&#10;Driver info: io.appium.java_client.AppiumDriver&#10;Capabilities {app: /Users/diogodourado/Projeto..., autoLaunch: true, browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, launchTimeout: 20000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 18000, platform: MAC, platformName: MAC, platformVersion: 13.3, takesScreenshot: true, udid: DE30F58D-9255-46BA-BC67-4AB..., webStorageEnabled: false, xcodeOrgId: 42BJ74CFXP, xcodeSigningId: iPhone Developer}&#10;Session ID: eb2f5f21-72ee-4ebf-b58a-92147a54d6db&#10;*** Element info: {Using=name, value=haveCode}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'&#10;Driver info: driver.version: AppiumDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., autoLaunch: true, browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, launchTimeout: 20000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 18000, platform: MAC, platformName: MAC, platformVersion: 13.3, takesScreenshot: true, udid: DE30F58D-9255-46BA-BC67-4AB..., webStorageEnabled: false, xcodeOrgId: 42BJ74CFXP, xcodeSigningId: iPhone Developer}
+Session ID: eb2f5f21-72ee-4ebf-b58a-92147a54d6db
+*** Element info: {Using=name, value=haveCode}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: driver.version: AppiumDriver</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/diogodourado/Projeto..., autoLaunch: true, browserName: , databaseEnabled: false, deviceName: iPhone 8, javascriptEnabled: true, launchTimeout: 20000, locationContextEnabled: false, networkConnectionEnabled: false, newCommandTimeout: 18000, platform: MAC, platformName: MAC, platformVersion: 13.3, takesScreenshot: true, udid: DE30F58D-9255-46BA-BC67-4AB..., webStorageEnabled: false, xcodeOrgId: 42BJ74CFXP, xcodeSigningId: iPhone Developer}
+Session ID: eb2f5f21-72ee-4ebf-b58a-92147a54d6db
+*** Element info: {Using=name, value=haveCode}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Diogos-MacBook-Pro.local', ip: '2804:431:cfc7:3728:d57:13ba:43bc:daff%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_242'
+Driver info: driver.version: AppiumDriver
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:118)
+io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+features.elements_mapping.ios.AddNewStudentMapping.getErrorMessageAboutAlreadyAddedStudent(AddNewStudentMapping.java:69)
+features.steps.AddNewStudentSteps.theErrorMessageAboutStudentAlreadyAddedShouldBeDisplayed(AddNewStudentSteps.java:223)
+✽.the error message about student already added should be displayed(src/test/resources/requirements/add_new_student.feature:77)
+</system-err></testcase></testsuite>
