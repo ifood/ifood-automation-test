@@ -140,12 +140,12 @@ public class AddNewStudentSteps {
                             .getText());
             PagesAndroid.addNewStudentPage().addNewStudentMapping.getCloseRequiredFieldModal().click();
         }else{
-//            Assert.assertEquals(
-//                    ReadJsonFile.getReadJsonByPath(
-//                            new String[] {"messages", "add-new-student", "error-required-fields"}),
-//                    PagesIos.addNewStudentPage().addNewStudentMapping.getRequiredFieldMessage()
-//                            .getText());
-//            PagesIos.addNewStudentPage().addNewStudentMapping.getCloseRequiredFieldModal().click();
+            Assert.assertEquals(
+                    ReadJsonFile.getReadJsonByPath(
+                            new String[] {"messages", "add-new-student", "error-required-fields"}),
+                    PagesIos.addNewStudentPage().addNewStudentMapping.getRequiredFieldMessage()
+                            .getText());
+            PagesIos.addNewStudentPage().addNewStudentMapping.getCloseRequiredFieldModal().click();
         }
     }
 
@@ -246,4 +246,23 @@ public class AddNewStudentSteps {
         }
     }
 
+    @When("^she tries to add the same student added using the same credentials in uppercase$")
+    public void she_tries_to_add_the_same_student_added_using_the_same_credentials_in_uppercase() {
+        if (System.getProperty("platform").toLowerCase().equals("android")) {
+            PagesAndroid.addNewStudentPage().addNewStudentByCredential(newStudentCode.toUpperCase(), newStudentName);
+        }else{
+            PagesIos.addNewStudentPage().addNewStudentByCredential(newStudentCode.toUpperCase(), newStudentName);
+        }
+    }
+
+    @Given("^she adds a student with the following value in lowercase$")
+    public void she_adds_a_student_with_the_following_value_in_lowercase(Map<String,String> credentials) {
+        newStudentCode = credentials.get("code").toLowerCase();
+        newStudentName = credentials.get("student name").toLowerCase();
+        if (System.getProperty("platform").toLowerCase().equals("android")) {
+            PagesAndroid.addNewStudentPage().addNewStudentByCredential(newStudentCode,newStudentName);
+        }else{
+            PagesIos.addNewStudentPage().addNewStudentByCredential(newStudentCode,newStudentName);
+        }
+    }
 }

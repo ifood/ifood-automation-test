@@ -50,5 +50,13 @@ c
 3src/test/java/features/pages/android/LoginPage.java,1/0/10f848a42dce13af78859c3a44b9f564bde14624
 _
 /src/test/java/features/pages/AppiumActions.java,2/6/26804b2144537fcf491e1a1549ecbc14908f5be5
-Z
-*src/test/java/bugs_descriptions/CODE-1.txt,5/9/596ae4324a53927bddacc6f39932018e6ab1f49d
+d
+4src/test/java/bugs_and_improvements/ios/bug-ios-0.md,9/b/9b6aad3300299f6b707c6d7988271b19c6891dbc
+f
+6src/test/java/bugs_and_improvements/ios/improvement.md,6/1/614dd5cf69a14385852c3fc4059f6a8470c6db50
+l
+<src/test/java/bugs_and_improvements/android/bug-android-0.md,0/a/0afa1a2c54225c7563e747514a86b675ca77b47b
+l
+<src/test/java/bugs_and_improvements/android/bug-android-1.md,7/7/773bed80ef550888f655677dd3c57596c8113f41
+d
+4src/test/java/bugs_and_improvements/ios/bug-ios-1.md,2/3/23891ab95f0717f61653edc2a141b2e4d7f1c696

@@ -37,7 +37,7 @@ Feature: Add new student
       |       |0ADouradoZ9  |
       |   059 |0ADouradoZ9  |
 
-  @negative @android @ios @bug-ios-0
+  @negative @android @ios
   Scenario Outline: Try to add a new student with some empty fields
     And she fills the fields with the following values
       |code|<code>|
@@ -65,6 +65,15 @@ Feature: Add new student
       |code        |a059z    |
       |student name|Dourado  |
     When she tries to add the same student added using the same credentials
+    Then the error message about student already added should be displayed
+    And the completed field should remain with the written value
+
+  @negative @android @ios @bug-android-1 @bug-ios-1
+  Scenario: Try to add the same student twice only changing the code to uppercase
+    And she adds a student with the following value in lowercase
+      |code        |abc      |
+      |student name|Dourado  |
+    When she tries to add the same student added using the same credentials in uppercase
     Then the error message about student already added should be displayed
     And the completed field should remain with the written value
 

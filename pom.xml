@@ -155,7 +155,8 @@
                             </includes>
                             <systemPropertyVariables>
                                 <!--suppress UnresolvedMavenProperty -->
-                                <platform>${varName}</platform>
+<!--                                <platform>${varName}</platform>-->
+                                <platform>ios</platform>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>

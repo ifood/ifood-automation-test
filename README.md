@@ -19,3 +19,6 @@ Let's move on with some small rules...
 ## App Info
 * Login: teste@teste.com
 * Password: 123456
+
+mvn test -Dplatform=ios -Dcucumber.options="--tags '@ios'"
+
