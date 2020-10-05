@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login","login successful","SUCCESS","2020-10-05T16:40:02.537-03:00[America/Sao_Paulo]","0.0","18.91"
-"Login","Try login with invalid values","SUCCESS","2020-10-05T16:40:21.454-03:00[America/Sao_Paulo]","0.0","147.11"
