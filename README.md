@@ -12,10 +12,30 @@ Let's move on with some small rules...
 * Everything we run we use a jenkinsFile on Jenkins.
 
 ## Non functional requirements
-* Briefly elaborate on your solution, architecture details, choice of patterns and frameworks.
+* Briefly elaborate on your solution,w architecture details, choice of patterns and frameworks.
 * Use whatever language, tools and frameworks you feel comfortable to, but keep an eye on the hints section.
 * Fork this repository and submit your code.
 
 ## App Info
 * Login: teste@teste.com
 * Password: 123456
+
+## Execute the automated tests
+###Note: 
+Setup the capabilities to recognize your device/emulator in ...
+src/test/java/capabilities/CapsAndroid.java
+or 
+src/test/java/capabilities/CapsIOS.java
+
+### Android
+mvn clean verify -P serenity -Dplatform=android -Dcucumber.options="--tags '@android'"
+### iOS
+mvn clean verify -P serenity -Dplatform=ios -Dcucumber.options="--tags '@ios'"
+
+
+##To view the report
+Open the following file using Chrome
+
+```
+target/site/serenity/index.html
+```
