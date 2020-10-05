@@ -1,12 +1,0 @@
-
-Psquid:S1444"3Make this "public static SHORT_TIMEOUT" field final(ªóS8Ìæî¸Î.
-Qsquid:S1444".Make this "public static platform" field final(£—ÀÏüÿÿÿÿ8Ìæî¸Î.
-Jsquid:S1444",Make this "public static driver" field final(ÀÉ­8Ìæî¸Î.
-Msquid:S1444"*Make this "public static wait" field final(ƒÍ×¨úÿÿÿÿ8Ìæî¸Î.
-Csquid:S3010"%Remove this assignment of "platform".(àÓ™í8Ìæî¸Î.
-Usquid:S1444"2Make this "public static LONG_TIMEOUT" field final(¸É“òøÿÿÿÿ8Ìæî¸Î.
-usquid:S3008"XRename this field "SHORT_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªóS8Ìæî¸Î.
-zsquid:S3008"WRename this field "LONG_TIMEOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸É“òøÿÿÿÿ8Ìæî¸Î.
-bsquid:UselessImportCheck"2Remove this unused import 'cucumber.api.Scenario'.(ÅÕÇ‘ùÿÿÿÿ8ÀŞÀ¹Î.
-™squid:S1845"vRename field "wait" to prevent any misunderstanding/clash with method "wait" defined in superclass "java.lang.Object".(ƒÍ×¨úÿÿÿÿ8Ìæî¸Î.
-|squid:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ãÿäÿÿÿÿÿ8Ìæî¸Î.
