@@ -8,7 +8,10 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.Objects;
+
 public class MainScreen extends CommonsBasePage {
+    static String idInsertedStudent = "";
 
     @AndroidFindBy(accessibility = "codigo")
     @iOSXCUITFindBy(xpath = "//*[@label='codigo']")
@@ -25,12 +28,15 @@ public class MainScreen extends CommonsBasePage {
     @AndroidFindBy(xpath = "//android.widget.ScrollView")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeScrollView")
     MobileElement studentsList;
+    @AndroidFindBy(id = "android:id/alertTitle")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeAlert")
+    MobileElement fillFieldAlert;
 
-    public MainScreen(AppiumDriver<?> driver){
+    public MainScreen(AppiumDriver<?> driver) {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public void validateMainScreen(){
+    public void validateMainScreen() {
         validateElement(inputIdStudent);
         validateElement(inputNameStudent);
         validateElement(buttonSave);
@@ -38,8 +44,47 @@ public class MainScreen extends CommonsBasePage {
         validateElement(studentsList);
     }
 
-    public void inputIdStudent(){
-        sendKeysToElement(inputIdStudent, "123");
+    public void inputIdStudent() {
+        String idStudent = "123";
+        sendKeysToElement(inputIdStudent, idStudent);
+        idInsertedStudent = idStudent;
+    }
+
+    public void inputNameStudent() {
+        sendKeysToElement(inputNameStudent, "Raul Tomaz");
+    }
+
+    public void clickSaveButton() {
+        clickElement(buttonSave);
+    }
+
+    public void scrollToLastElement() {
+        if (Objects.requireNonNull(driver.getPlatformName()).equalsIgnoreCase("ios")) {
+            iosScrollToAnElement(studentsList, idInsertedStudent);
+        } else {
+            androidScrollToAnElementByText(idInsertedStudent);
+        }
+
+    }
+
+    public void assertRecordInserted(){
+        MobileElement assertionElement;
+        if(Objects.requireNonNull(driver.getPlatformName()).equalsIgnoreCase("android"))
+        {
+            assertionElement = studentsList.findElementByXPath("//android.view.ViewGroup[@content-desc=" +
+                    "\""+idInsertedStudent+"\"]/android.widget.TextView");
+        }
+        else
+        {
+            assertionElement = studentsList.findElementById(idInsertedStudent);
+        }
+
+        assertConditionTrue("The element was not inserted", assertionElement.getText().contains("123"));
+
+    }
+
+    public void assertBlankFieldsMessage(){
+        assertElementsEqual("Os campos devem ser preenchidos!", fillFieldAlert.getText());
     }
 
 }
