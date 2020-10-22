@@ -10,7 +10,7 @@ public class Hooks extends DriverFactory {
 
     @Before
     public void start(){
-        initDriver("android");
+        initDriver(System.getProperty("platform"));
     }
 
     @After
