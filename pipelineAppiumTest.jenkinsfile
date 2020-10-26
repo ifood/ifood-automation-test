@@ -1,0 +1,47 @@
+def PLATFORM = "ios"
+
+pipeline{
+    agent{
+        node {
+            label 'mac-machine'
+        }
+    }
+    tools{
+        maven 'maven'
+    }
+
+    stages{
+        stage('Checkout') {
+            steps {
+                script {
+                    checkout([$class: 'GitSCM', branches: [[name: '*/develop']],
+                              userRemoteConfigs: [[url: 'https://github.com/RaulTomaz/ifood-automation-test.git']]])
+                    sh "git checkout develop"
+                }
+            }
+        }
+        stage('build clean'){
+            steps{
+                sh "mvn clean"
+            }
+        }
+        stage('UI test'){
+            steps{
+                script{
+                    sh "mvn test -Dplatform=${PLATFORM}"
+                }
+
+            }
+
+        }
+    }
+
+    post{
+        always{
+            cucumber fileIncludePattern: "**/cucumber.json",
+                    jsonReportDirectory: "target"
+            cleanWs()
+        }
+    }
+
+}
